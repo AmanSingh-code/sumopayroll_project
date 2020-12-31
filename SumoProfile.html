@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SumoProject</title>
+    <link rel="stylesheet" href="SumoProfile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+<body onload="loadText()">
+    <div class="Profile_Container">
+        <!--left-box------->
+            <div class="Pbox_1">
+                <p class="submenu-title">Profile</p>
+                <ul class="nav-second-level">
+                    <li class="pboxa"><a  href="https://app.sumopayroll.com/profile" class="pa">My Profile</a></li>
+                    <li id="" class="pboxa">  <a href="#my_companies" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">MyCompany </a></li>
+
+                    <li class="pboxa"><a  href="https://app.sumopayroll.com/logout" class="pa"> Logout </a></li>
+                </ul>
+            </div>
+            <div id="id01" class="box">
+                <form class="modal-content">
+                  <h2 class="bxh">My Companies</h2>
+                       <div class="container">
+                            <label for="uname"><b>CompanyName</b></label>
+                            <label for="uname"><b>Company Status</b></label>
+                            <label for="uname"><b>User Status</b></label>
+                            <label for="uname"><b>User since</b></label>
+                        </div>
+                        <div class="container2">
+                          <label for="uname"><a href="xyz"><b>MesarEnergy</b></a></label>
+                          <label for="uname"><b>Active&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                          <label for="uname"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Active&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                          <label for="uname"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29Dec,2020 at1.3pm</b></label>
+                        </div>
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Close</button>
+                </form>
+              </div>
+
+            <!--main-box------->
+            <div class="box2">
+                <div class="account">
+                     <p class="acountp">Account Details</p>
+                     <button class="btn1"><a class="btna"  href="">My Role</a> </button></a>
+                     <button class="btn2"><a href="xyz"><img class="accimg" src="10-102339_this-free-clip-arts-design-of-green-pencil.png"></a></button>
+                     
+                     <p class="acountp">Change Picture</p>
+                </div>
+                <div class="detail">
+                    <div class="left">
+                        <label for="companyname" class="label1">CompanyName &nbsp;&nbsp;Mesar Energy </label>               
+                        <label for="fristname" class="label2">FristName <input class="input1" type="text"></label>
+                        <label for="lastname" class="label2_1">LastName&nbsp;<input class="input1" type="text"> </label>
+                        <label for="email" class="label3">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input1" type="email"></label>
+                        <label for="password" class="label4">Password &nbsp;<input placeholder="Cannot reset password, because you currently use your Google Account to sign in to Sumopayroll." class="input1" type="text"></label>
+                        
+                        <div class="leftp">
+                          <p>Note: Password should have minimum 8 characters and it must have atleast one lowercase alphabet (a-z), one uppercase alphabet (A-Z), one numeric value (1-9) and one special character (!@#$%^&*)
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="right">
+                        <div class="right__box">
+                            <p ><a class="right__boxp" href="xyz">AS</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--last-box------->
+            <div class="last_box">
+                <div class="login">
+                    <h4>Login History</h4>
+                    <hr style="color: rgb(180, 178, 178);">
+                        <div class="btn">
+                            <button><a href="xyz" class="fa fa-search"></a></button>
+                            <button ><a href="xyz" class="fa fa-bars"></a></button>
+                            <button ><a href="xyz" class="fa fa-columns"></a></button>
+                            <button ><a href="xyz" class="fa fa-close"></a></button>
+                            <button ><a href="xyz" class="fa fa-folder"></a></button>
+                        </div>
+                    
+                    
+        </div>
+
+                <table class="card" id="cards">
+                    <thead>
+                        <tr>
+                            <th>IP ADDRESS</th>
+                            <th>LOGGED ON</th>
+                            <th>COUNTRY</th>
+                            <th>CITY</th>
+                            <th>BROWSER INFO</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cardsbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+    </div>
+    
+            
+
+    
+    <script src="SumoProfile.js"></script>
+</body>
+</html>

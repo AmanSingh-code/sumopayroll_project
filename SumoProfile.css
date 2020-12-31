@@ -1,0 +1,285 @@
+body{
+    
+    margin: 0%;
+}
+/* for try */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: grey;
+  }
+  .container {
+    margin-left: 5%;
+    width: 700px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+  }
+  .container2{
+      margin-left: 5%;
+      width: 700px;
+      height: 30px;
+      border: 1px solid black;
+      background-color: rgb(226, 216, 216);
+  }
+  .box {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% 19%;
+    border: 1px solid #888;
+    width: 60%;
+    height: 300px; 
+  }
+  .cancelbtn {
+       width: 10%;
+       margin-left: 80%;
+       margin-top: 10%;
+       background-color: white;
+       color: grey;
+       border: 1px solid black;
+  }
+  .bxh{
+      color: rgb(23, 216, 23);
+      font-size: 22px;
+      margin-left: 5%;
+  }
+  b{
+    margin-left: 4%;
+    font-size: 18px;
+  }
+
+/* main div property*/
+.Profile_Container{
+    margin: 4% 0% 0% 5%;
+    width: 1300px;
+    height: 700px;
+}
+.pboxa{
+   margin-top: 1%;
+   line-height: 40px;
+   font-size: 15px;
+}
+/* left side frist box css */
+.Pbox_1{
+-webkit-tap-highlight-color: transparent;
+height: 700px;
+background-color: white;
+color: #333333;
+font-family: Helvetica, Arial, sans-serif;
+box-sizing: border-box;
+float: left;
+margin:5.5px 0 0;
+text-align: left;
+background-clip: padding-box;
+margin-bottom: 0px;
+min-width: 180px;
+display: block;
+padding: 20px 0px 15px 0px;
+left: 80px;
+border-right: 1px solid #F8F9FA;
+width: 190px;
+font-size: 15px;
+box-shadow: 2px 2px 3px -2px rgba(0, 0, 0, 0.1);
+top: 0px;
+}
+.nav-second-level{
+    list-style-type: none;
+    
+}
+.pa:hover{
+    color: blue;
+}
+.pa{
+    text-decoration: none;
+    color: #696969;
+}
+.submenu-title{
+    margin-left: 4%;
+    margin-top: 0%;
+    font-size: 20px;
+    color: #333333;
+}
+
+/* main-box */
+.box2{
+    background-color: white;
+    width: 1110px;
+    height: 350px;
+    margin-left: 14%;
+    
+}
+.account{
+    width: 1100px;
+    height: 70px;
+    border: 1px solid rgb(185, 181, 181);
+    display: flex;
+    position: sticky;
+    z-index: 1;
+    
+}
+.btn1{
+    margin: 2% 0% 0% 0%;
+    margin-left: 15%;
+    width: 80px;
+    height: 40px;
+    background-color:black;
+    border: transparent;
+    color: white;
+}
+.btna{
+    color: white;
+}
+.btnb{
+    color: white;
+}
+.btn2{
+    margin: 2%;
+    margin-left: 4px;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(80, 76, 76);
+    border: transparent;
+}
+.accimg{
+    width: 40px;
+    height: 39px;
+    border-radius: 70px;
+}
+.acountp{
+    font-size: 25px;
+    margin-right: 18%;
+    margin-left: 25px;
+    color: rgb(87, 84, 84);
+}
+a{
+color:black;
+text-decoration: none ;
+}
+.detail{
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    
+}
+.left{
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 670px;
+    height: 80%;
+    overflow-y: scroll;
+    margin: 15px 1px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+.left label{
+    margin-top: 28px;
+    margin-left: 20%;
+    
+}
+.left p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.right{
+    margin-left: 4%;
+}
+
+.right__box{
+    background-color: #DDA0DD;
+    width: 150px;
+    height: 150px;
+    margin-left: 33%;
+    margin-top: 7%;
+    border-radius: 100px;
+    padding: 25px;
+}
+.right__boxp{
+    font-size: 90px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+.input1{
+    width: 400px;
+    height: 25px;
+    background-color: rgb(226, 223, 223);
+    margin-left: 5px;
+    border: 2px solid rgb(226, 223, 223);
+}
+
+.label1{
+margin-left: 7.5%;
+margin-top: 3%;
+}
+.label2{
+    margin-left: 12%;
+}
+.label2_1{
+    margin-left: 13%;
+}
+.label3{
+    margin-left: 16.5%;
+}
+.label4{
+    margin-left: 13%;
+} 
+
+/* last-box */
+.last_box{
+    margin: 0% 0 0 14.5%;
+    width: 1110px;
+    color: #333333;
+    font-size: 12px;
+    padding: 8px;
+}
+.card{
+    background-color: rgb(255, 249, 249);
+    width: 1100px;
+    height: 400px;
+}
+
+.list{
+   text-align: center;
+}
+.list :nth-child(even){
+    background-color: #d6d0d0;
+}
+.login h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.btn{
+    display: flex;
+    margin-left: 80%;
+    margin-bottom: 2%;
+    background-color: white;
+}
+.btn button{
+    height: 30px;
+    width: 30px;
+    margin: 0%;
+    
+}
+.btn button:hover{
+    color: smoke grey;
+}
+
+
+
+
