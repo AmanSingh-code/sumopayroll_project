@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="expenses.css">
+    <link rel="stylesheet" href="front.css">
     <title>Expenses</title>
   </head>
 <body>
@@ -13,7 +14,7 @@
   <nav class="topnav">
     <ul class="topnav__ul">
         <li><i class="fa fa-bars" style="font-size:24px"></i></li>
-        <li><img  src="https://app.sumopayroll.com/img/logoNew.png" alt=""></li>
+        <li> <a href="front.html"><img src="https://app.sumopayroll.com/img/logoNew.png" alt=""></a></li>
         <li><h2>Dashboard</h2></li>
         <li><i style="color: rgb(99, 184, 240);" class="fa fa-question-circle"></i><span>Help</span></li>
         <li><button>Upgrade</button></li>
@@ -24,74 +25,102 @@
  </nav>
  <div style="margin-top: 70px;">
  <!-- <hr> -->
-
- <!-- <side nav start> -->
-  <nav class="sidenav">
-        
-    <ul>
-        <li id="icon1"><i class="fa fa-home"></i></li>
-        <li id="icon2"><i class="fa fa-group"></i></li>
-        <li id="icon3"><i class="fa fa-rupee"></i></li>
-        <li><i class="fa fa-clock-o"></i></li>
-        <li><i class="fa fa-file"></i></li>
-        <li><i class="fa fa-cog"></i></li>
-        <li><i class="fa fa-line-chart"></i></li>
-        
-    </ul>
-    <ul class="sidenav__bottom">
-        <li><i class="fa fa-bell"></i></li>
-        <li id="icon4"><div>Ji</div></li>
-    </ul>
-</nav>
-<!-- <---------popup1---------------> 
-<div class="popup">
-    <ul>
-        <li><i class="fa fa-group">&nbsp</i>Employees</li>
-        <li><i class="fa fa-flag">&nbsp</i>HR Request</li>
-        <li><i class="fas fa-user-alt">&nbsp</i>Consultants</li>
-    </ul>
-    <div class="beak">
-    </div>
-  </div>
-</div>
-<!-- <-----------popup2----------------> 
-<div class="popup2">
-    <ul>
-        <li><i class="fa fa-group"></i>&nbspEmployees</li>
-        <li><i class="fas fa-bell"></i>&nbspNotification</li>
-        <li><i class="fas fa-user-alt">&nbsp &nbsp</i>Guidance</li>
-    </ul>
-    <div class="beak2">
-    </div>
-  </div>
-</div>
-<!-- <-----------popup3-------------------> 
-<div class="popup3">
-    <ul>
-        <li><i class="fa fa-group"></i>&nbsp Employees</li>
-        <li><i class="fas fa-briefcase"></i>&nbsp Policies</li>
-        <li><i class="fas fa-sticky-note"></i>&nbsp Application</li>
-    </ul>
-    <div class="beak3">
-    </div>
-  </div>
-</div>
-
-<!-- _______________bottom popup4_______________________________ -->
-<div class="popup4">
-    <ul>
-        <li><i class="fa fa-group"></i>My profile</li>
-        
-        <!-- <li>Company</li> -->
-        <li>Logout</li>
-    </ul>
-    <div class="beak4">
-    </div>
-  </div>
-</div>
- <!-- <side nav end> -->
  </div>
-  
+ <nav class="sidenav">
+     
+     <ul>
+<!-- <---------popup1---------------> 
+
+         <li id="icon1">
+             <div class="popup">
+                 <ul>
+                     <li><i class=" fa fa-group">&nbsp</i>Employees</li>
+                     <li><i class="fa fa-flag">&nbsp</i>HR Request</li>
+                     <li><i class="fas fa-user-alt">&nbsp</i>Consultants</li>
+                 </ul>
+                 <div class="beak">
+                 </div>
+               </div>
+             </div>
+             <i class="fa fa-home"></i></li>
+ <!-- <-----------popup2----------------> 
+
+         <li id="icon2">
+             <div class="popup2">
+                 <ul>
+                     <li><i class="fa fa-group"></i>&nbspEmployees</li>
+                     <li><i class="fas fa-bell"></i>&nbspNotification</li>
+                     <li><i class="fas fa-user-alt">&nbsp &nbsp</i>Guidance</li>
+                 </ul>
+                 <div class="beak2">
+                 </div>
+               </div>
+             </div>
+             <i class="fa fa-group"></i></li>
+ <!-- <-----------popup3-------------------> 
+
+         <li id="icon3">
+             <div class="popup3">
+                 <ul>
+                     <li><i class="fa fa-group"></i>&nbsp Employees</li>
+                     <li><i class="fas fa-briefcase"></i>&nbsp Policies</li>
+                     <li><i class="fas fa-sticky-note"></i>&nbsp Application</li>
+                 </ul>
+                 <div class="beak3">
+                 </div>
+               </div>
+             </div>
+             <i class="fa fa-rupee"></i></li>
+         <li><i class="fa fa-clock-o"></i></li>
+         <li id="icon5">
+             <!-- <-------------- popup5 (Expenses)--------------------------------------> 
+             <div class="popup5">
+                 <ul>
+                     <li><i class="fas fa-dollar-sign"></i>&nbsp <a href="expenses.html">Add Expenses</a> </li>
+                     <li><i class="far fa-comments-dollar"></i>&nbsp <a href="expenses.html">Employee Savings</a></li>
+                 </ul>
+                 <div class="beak5">
+                 </div>
+             </div>
+             </div>
+             <i class="fa fa-file"></i></li>
+         <li><i class="fa fa-cog"></i></li>
+         <li id="icon6">
+             <!-- <-----------------------popup6 (reports)---------------------------------------> 
+             <div id="popup66" class="popup6">
+                 <ul>
+                     <li><i class="fa fa-calculator" ></i>&nbsp &nbsp<a href="reports.html">Reports</a></li>
+                 </ul>
+                 <div class="beak6">
+                 </div>
+             </div>
+             </div>
+             <i class="fa fa-line-chart"></i></li>
+         
+     </ul>
+     <ul class="sidenav__bottom">
+         <li><i class="fa fa-bell"></i></li>
+         <li id="icon4">
+             
+             <!-- _______________ popup4_______________________________ -->
+             <!-- <--------------profile-----------------------> 
+             <div class="popup4">
+                 <ul>
+                     <li><a href="SumoProfile1.html">My profile</a></li>
+                     
+                     <li>Company</li>
+                     <li><a href="logoutpage.html">Logout</a></li>
+                 </ul>
+                 <div class="beak4">
+                 </div>
+               </div>
+             </div>
+
+             <div class="round">Ji</div></li>
+     </ul>
+ </nav>
+
+  <!-- <-----------------------Center Expenses---------------------------------------> 
   <h3 style="margin-left: 75px; margin-top: 90px; color: rgb(105,105,105);">Expenses</h3></br>
   <div>
       <a onclick="document.getElementById('id01').style.display='block'" style="width:auto; margin-left: 85px;">Add Expenses</a>
@@ -200,7 +229,7 @@ let icon3=document.getElementById("icon3")
 
 icon3.addEventListener("mouseover", displayPopup3)
   
-icon3 .addEventListener("mouseout", removePopup3)
+icon3.addEventListener("mouseout", removePopup3)
 
 
 function removePopup3(e){
@@ -220,7 +249,7 @@ let icon4=document.getElementById("icon4")
 
 icon4.addEventListener("mouseover", displayPopup4)
   
-icon4 .addEventListener("mouseout", removePopup4)
+icon4.addEventListener("mouseout", removePopup4)
 
 
 function removePopup4(e){
@@ -234,6 +263,75 @@ function displayPopup4(e){
   pop.style.display = "block"
   
 }
+// <----------------icon5--------------------------->
+
+let icon5=document.getElementById("icon5")
+// let icon55=document.getElementById("popup55")
+
+icon5.addEventListener("mouseover", displayPopup5)
+  
+icon5.addEventListener("mouseout", removePopup5)
+
+
+function removePopup5(e){
+  document.querySelector(".popup5").style.display = "none"
+  // document.querySelector(".popup55").style.display = "none"
+
+}
+
+
+function displayPopup5(e){
+  
+  let pop = document.querySelector('.popup5')
+  pop.style.display = "block"
+  
+}
+// ----------------icon6----------------------------
+
+// let icon6=document.getElementById("icon6")
+// // let icon66=document.getElementById("popup66")
+
+// icon6.addEventListener("mouseover", displayPopup6)
+  
+// icon6.addEventListener("mouseout", removePopup6)
+
+
+// function removePopup6(e){
+//   document.querySelector(".popup6").style.display = "none"
+//   // document.querySelector("#popup66").style.display = "none"
+// }
+
+
+// function displayPopup6(e){
+  
+//   let pop = document.querySelector('.popup6')
+//   pop.style.display = "block"
+  
+
+// -------------------------icon6--------------------------------------------
+
+let icon6=document.getElementById("icon6")
+// let icon66=document.getElementById("popup66")
+
+icon6.addEventListener("mouseover", displayPopup6)
+  
+icon6.addEventListener("mouseleave", removePopup6)
+
+
+function removePopup6(e){
+  document.querySelector(".popup6").style.display = "none"
+  // document.querySelector("#popup66").style.display = "none"
+}
+
+
+function displayPopup6(e){
+  
+  let pop = document.querySelector('.popup6')
+  pop.style.display = "block"
+  
+}
+
+
 
     // Get the modal
     var modal = document.getElementById('id01');
