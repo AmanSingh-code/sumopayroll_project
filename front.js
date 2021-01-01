@@ -45,7 +45,7 @@ let icon3=document.getElementById("icon3")
 
 icon3.addEventListener("mouseover", displayPopup3)
   
-icon3 .addEventListener("mouseout", removePopup3)
+icon3.addEventListener("mouseout", removePopup3)
 
 
 function removePopup3(e){
@@ -65,7 +65,7 @@ let icon4=document.getElementById("icon4")
 
 icon4.addEventListener("mouseover", displayPopup4)
   
-icon4 .addEventListener("mouseout", removePopup4)
+icon4.addEventListener("mouseout", removePopup4)
 
 
 function removePopup4(e){
@@ -76,6 +76,46 @@ function removePopup4(e){
 function displayPopup4(e){
   
   let pop = document.querySelector('.popup4')
+  pop.style.display = "block"
+  
+}
+// <----------------icon5--------------------------->
+
+let icon5=document.getElementById("icon5")
+
+icon5.addEventListener("mouseover", displayPopup5)
+  
+icon5.addEventListener("mouseout", removePopup5)
+
+
+// function removePopup5(e){
+//   document.querySelector(".popup5").style.display = "none"
+// }
+
+
+function displayPopup5(e){
+  
+  let pop = document.querySelector('.popup5')
+  pop.style.display = "block"
+  
+}
+// ----------------icon6----------------------------
+
+let icon6=document.getElementById("icon6")
+
+icon6.addEventListener("mouseover", displayPopup6)
+  
+icon6.addEventListener("mouseout", removePopup6)
+
+
+// function removePopup6(e){
+//   document.querySelector(".popup6").style.display = "none"
+// }
+
+
+function displayPopup6(e){
+  
+  let pop = document.querySelector('.popup6')
   pop.style.display = "block"
   
 }
