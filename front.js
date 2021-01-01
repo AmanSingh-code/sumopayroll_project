@@ -82,15 +82,18 @@ function displayPopup4(e){
 // <----------------icon5--------------------------->
 
 let icon5=document.getElementById("icon5")
+// let icon55=document.getElementById("popup55")
 
 icon5.addEventListener("mouseover", displayPopup5)
   
 icon5.addEventListener("mouseout", removePopup5)
 
 
-// function removePopup5(e){
-//   document.querySelector(".popup5").style.display = "none"
-// }
+function removePopup5(e){
+  document.querySelector(".popup5").style.display = "none"
+  // document.querySelector(".popup55").style.display = "none"
+
+}
 
 
 function displayPopup5(e){
@@ -101,16 +104,40 @@ function displayPopup5(e){
 }
 // ----------------icon6----------------------------
 
-let icon6=document.getElementById("icon6")
+// let icon6=document.getElementById("icon6")
+// // let icon66=document.getElementById("popup66")
 
-icon6.addEventListener("mouseover", displayPopup6)
+// icon6.addEventListener("mouseover", displayPopup6)
   
-icon6.addEventListener("mouseout", removePopup6)
+// icon6.addEventListener("mouseout", removePopup6)
 
 
 // function removePopup6(e){
 //   document.querySelector(".popup6").style.display = "none"
+//   // document.querySelector("#popup66").style.display = "none"
 // }
+
+
+// function displayPopup6(e){
+  
+//   let pop = document.querySelector('.popup6')
+//   pop.style.display = "block"
+  
+
+// -------------------------icon6--------------------------------------------
+
+let icon6=document.getElementById("icon6")
+// let icon66=document.getElementById("popup66")
+
+icon6.addEventListener("mouseover", displayPopup6)
+  
+icon6.addEventListener("mouseleave", removePopup6)
+
+
+function removePopup6(e){
+  document.querySelector(".popup6").style.display = "none"
+  // document.querySelector("#popup66").style.display = "none"
+}
 
 
 function displayPopup6(e){
@@ -118,4 +145,13 @@ function displayPopup6(e){
   let pop = document.querySelector('.popup6')
   pop.style.display = "block"
   
+}
+
+
+// <----------------removing popup---------------------------->
+
+document.querySelector("#cross").addEventListener("click",removing)
+function removing(e){
+    document.querySelector(".kyc").style.display="none"
+    console.log("object")
 }

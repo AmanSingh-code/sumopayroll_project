@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sumopayroll || Home</title>
+    <link rel="icon" type="image" href="https://app.sumopayroll.com/favicon.ico">
     <link rel="stylesheet" href="front.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,87 +28,111 @@
     <nav class="sidenav">
         
         <ul>
-            <li id="icon1"><i class="fa fa-home"></i></li>
-            <li id="icon2"><i class="fa fa-group"></i></li>
-            <li id="icon3"><i class="fa fa-rupee"></i></li>
+   <!-- <---------popup1---------------> 
+
+            <li id="icon1">
+                <div class="popup">
+                    <ul>
+                        <li><i class=" fa fa-group">&nbsp</i>Employees</li>
+                        <li><i class="fa fa-flag">&nbsp</i>HR Request</li>
+                        <li><i class="fas fa-user-alt">&nbsp</i>Consultants</li>
+                    </ul>
+                    <div class="beak">
+                    </div>
+                  </div>
+                </div>
+                <i class="fa fa-home"></i></li>
+    <!-- <-----------popup2----------------> 
+
+            <li id="icon2">
+                <div class="popup2">
+                    <ul>
+                        <li><i class="fa fa-group"></i>&nbspEmployees</li>
+                        <li><i class="fas fa-bell"></i>&nbspNotification</li>
+                        <li><i class="fas fa-user-alt">&nbsp &nbsp</i>Guidance</li>
+                    </ul>
+                    <div class="beak2">
+                    </div>
+                  </div>
+                </div>
+                <i class="fa fa-group"></i></li>
+    <!-- <-----------popup3-------------------> 
+
+            <li id="icon3">
+                <div class="popup3">
+                    <ul>
+                        <li><i class="fa fa-group"></i>&nbsp Employees</li>
+                        <li><i class="fas fa-briefcase"></i>&nbsp Policies</li>
+                        <li><i class="fas fa-sticky-note"></i>&nbsp Application</li>
+                    </ul>
+                    <div class="beak3">
+                    </div>
+                  </div>
+                </div>
+                <i class="fa fa-rupee"></i></li>
             <li><i class="fa fa-clock-o"></i></li>
-            <li id="icon5"><i class="fa fa-file"></i></li>
+            <li id="icon5">
+                <!-- <-------------- popup5 (Expenses)--------------------------------------> 
+                <div class="popup5">
+                    <ul>
+                        <li><i class="fas fa-dollar-sign"></i>&nbsp <a href="expenses.html">Add Expenses</a> </li>
+                        <li><i class="far fa-comments-dollar"></i>&nbsp <a href="expenses.html">Employee Savings</a></li>
+                    </ul>
+                    <div class="beak5">
+                    </div>
+                </div>
+                </div>
+                <i class="fa fa-file"></i></li>
             <li><i class="fa fa-cog"></i></li>
-            <li id="icon6"><i class="fa fa-line-chart"></i></li>
+            <li id="icon6">
+                <!-- <-----------------------popup6 (reports)---------------------------------------> 
+                <div id="popup66" class="popup6">
+                    <ul>
+                        <li><i class="fa fa-calculator" ></i>&nbsp &nbsp<a href="reports.html">Reports</a></li>
+                    </ul>
+                    <div class="beak6">
+                    </div>
+                </div>
+                </div>
+                <i class="fa fa-line-chart"></i></li>
             
         </ul>
         <ul class="sidenav__bottom">
             <li><i class="fa fa-bell"></i></li>
-            <li id="icon4"><div>Ji</div></li>
+            <li id="icon4">
+                
+                <!-- _______________ popup4_______________________________ -->
+                <!-- <--------------profile-----------------------> 
+                <div class="popup4">
+                    <ul>
+                        <li><a href="SumoProfile1.html">My profile</a></li>
+                        
+                        <li>Company</li>
+                        <li><a href="logoutpage.html">Logout</a></li>
+                    </ul>
+                    <div class="beak4">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="round">Ji</div></li>
         </ul>
     </nav>
-    <!-- <---------popup1---------------> 
-    <div class="popup">
-        <ul>
-            <li><i class="fa fa-group">&nbsp</i>Employees</li>
-            <li><i class="fa fa-flag">&nbsp</i>HR Request</li>
-            <li><i class="fas fa-user-alt">&nbsp</i>Consultants</li>
-        </ul>
-        <div class="beak">
+    
+    
+    <div id="kyc" class="kyc">
+        <div class="kycb"></div>
+        <div class="kyc1">
+         <i class="fa fa-exclamation-triangle"></i>
         </div>
-      </div>
-    </div>
-    <!-- <-----------popup2----------------> 
-    <div class="popup2">
-        <ul>
-            <li><i class="fa fa-group"></i>&nbspEmployees</li>
-            <li><i class="fas fa-bell"></i>&nbspNotification</li>
-            <li><i class="fas fa-user-alt">&nbsp &nbsp</i>Guidance</li>
-        </ul>
-        <div class="beak2">
+        <div id="kyc2" class="kyc2">
+         <p class="content">Please Click here to submit KYC details. Certain features might not function until you submit KYC details.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
-      </div>
-    </div>
-    <!-- <-----------popup3-------------------> 
-    <div class="popup3">
-        <ul>
-            <li><i class="fa fa-group"></i>&nbsp Employees</li>
-            <li><i class="fas fa-briefcase"></i>&nbsp Policies</li>
-            <li><i class="fas fa-sticky-note"></i>&nbsp Application</li>
-        </ul>
-        <div class="beak3">
+        <div>
+            <p id="cross" >X</p>
         </div>
-      </div>
-    </div>
+ </div>
 
-    <!-- _______________ popup4_______________________________ -->
-    <!-- <--------------profile-----------------------> 
-    <div class="popup4">
-        <ul>
-            <li><a href="SumoProfile1.html">My profile</a></li>
-            
-            <li>Company</li>
-            <li><a href="logoutpage.html">Logout</a></li>
-        </ul>
-        <div class="beak4">
-        </div>
-      </div>
-    </div>
-
-    <!-- <-------------- popup5 (Expenses)--------------------------------------> 
-    <div class="popup5">
-        <ul>
-            <li><a href="expenses.html">Add Expenses</a> </li>
-            <li> <a href="expenses.html">Employee Expenses</a></li>
-        </ul>
-        <div class="beak5">
-        </div>
-      </div>
-    </div>
-    <!-- <-----------------------popup6 (reports)---------------------------------------> 
-    <div class="popup6">
-        <ul>
-            <li><a href="reports.html">Reports</a></li>
-        </ul>
-        <div class="beak6">
-        </div>
-      </div>
-    </div>
     <!-- <---------------center---------------------------> 
     <div class="center">
         <div>
@@ -128,6 +153,9 @@
         </div>
     </div>
     <!-- <a href="stopwatch.html">link</a> -->
-    <script src="front.js"></script>
+    
+    <script src="front.js">
+       
+    </script>
 </body>
 </html>
